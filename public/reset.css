@@ -1,0 +1,32 @@
+li {
+  display: inline-block;
+  margin: auto 3%;
+}
+
+ul {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+nav {
+  position: fixed;
+  margin: auto 0 30px;
+  max-width: 85%;
+  text-align: center;
+  width: 85%;
+  background-color: white;
+  padding: 15px 0;
+
+}
+
+.colors {
+  margin: 60px auto;
+  width: 85%;
+  padding: 30px 35px;
+}
+
+input {
+  padding: 20px;
+  margin: 3px;
+}
