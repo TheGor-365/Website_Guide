@@ -25,6 +25,7 @@ nav {
   padding: 30px 35px;
   align-items: center;
   text-align: center;
+  border-radius: 4px;
 }
 
 input {
@@ -37,6 +38,7 @@ input {
   padding: 30px;
   text-align: left;
   margin: 20px;
+  border-radius: 4px;
 }
 
 .fonts {
@@ -45,6 +47,7 @@ input {
   padding: 30px 35px;
   align-items: center;
   text-align: center;
+  border-radius: 4px;
 }
 
 .font {
@@ -53,6 +56,7 @@ input {
   padding: 30px 35px;
   width: 40%;
   text-align: left;
+  border-radius: 4px;
 }
 
 .text_styles {
@@ -61,6 +65,7 @@ input {
   padding: 30px 35px;
   align-items: center;
   text-align: center;
+  border-radius: 4px;
 }
 
 .text_style {
@@ -68,8 +73,9 @@ input {
   margin: 60px 23px;
   padding: 30px 35px;
   width: 40%;
-  height: 20em;
+  min-height: 20em;
   text-align: left;
+  border-radius: 4px;
 }
 
 .content_styles_example {
@@ -87,8 +93,86 @@ input {
 
 textarea {
   margin: 20px;
+  display: inline-block;
 }
 
 .little_button {
 
+}
+
+.illustration {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px rgba(0, 0, 0, 0.09) solid;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 30px auto;
+  height: 9em;
+  width: 90%
+}
+
+.illustration p {
+  margin: 15px 0;
+  vertical-align: middle;
+}
+
+._1 {
+  background-color: #2d5dcc;
+}
+
+._2 {
+  background-color: #d957d9;
+}
+
+._3 {
+  background-color: #4fe0b0;
+}
+
+._4 {
+  background-color: #efd9ca;
+}
+
+._5 {
+  background-color: #F0F8FF;
+}
+
+._6 {
+  background-color: #9932CC;
+}
+
+#super {
+  text-align: center;
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+}
+
+#copy_css_img {
+  display: inline-block;
+  margin: 20px;
+  margin-left: 35.5%;
+
+}
+
+figure.img_style_example {
+  margin: 60px auto;
+  width: 85%;
+  padding: 30px 35px;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+}
+
+div.img_style {
+  display: block;
+  width: 85%;
+}
+
+div.img_style {
+  display: inline-block;
+  padding: 30px;
+  text-align: left;
+  margin: 20px;
+  border-radius: 4px;
 }
